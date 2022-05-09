@@ -1,0 +1,44 @@
+.folder{
+  border: solid 0.1px black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.folder svg{
+  font-size: 60px;
+  color: rgb(25, 136, 255);
+  font-weight: 200;
+}
+.folder svg:hover{
+  font-size: 65px;
+  color: rgb(25, 136, 255);
+  font-weight: 200;
+}
+.options svg{
+  font-size: 20px;
+  
+}
+.left-div{
+  padding-top: 100px;
+  border-right: solid 0.5px gray;
+  height: 100vh;
+}
+.top-right{
+  display: flex;
+  flex-direction: row;
+justify-content: space-around;
+  align-items: center;
+  padding: 50px 0;
+  border-bottom: solid 0.5px;
+}
+.bottom-right{
+  display: flex;
+  flex-direction: row;
+justify-content: center;
+
+ 
+  
+}
